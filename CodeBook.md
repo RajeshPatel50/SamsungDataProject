@@ -24,7 +24,7 @@ Write the aggerate data to file.
 
       read activity labels in data frame  from “activity_labels.txt” file  & store two columns as “activity_id” and “activity_name” this file has  6 rows. These are activity against with data measurement is done.
 
-       read feature names (the parameters which are measured using devise for different subjects for different activity) this file has 561 rows and two column, these records are stored in “df_features” dataframe with column names “feature_id” & “feature_name” 
+      read feature names, the parameters which are measured using devise for different subjects for different activity, this file has 561 rows and two column, these records are stored in “df_features” dataframe with column names “feature_id” & “feature_name” 
 
 
 2.	Read all test data and combine them
@@ -90,7 +90,7 @@ Write the aggerate data to file.
 
 8.	Aggerate the data showing mean of data based on subject and activity.
 
-         FinalData (180 rows, 88 columns) is created by aggerating data as means for each subject and activity combination (6 activity for each 30 subject, 180 rows) 
+        FinalData, 180 rows, 88 columns is created by aggerating data as means for each subject and activity combination (6 activity for each 30 subject, 180 rows) 
 
 
 9.	Write the aggerate data to file
