@@ -90,10 +90,10 @@ Write the aggerate data to file.
 
 8.	Aggerate the data showing mean of data based on subject and activity.
 
-        FinalData, 180 rows, 88 columns is created by aggerating data as means for each subject and activity combination (6 activity for each 30 subject, 180 rows) 
+        FinalData, 180 rows, 88 columns is created by aggerating data as means for each subject and activity combination 6 activity for each 30 subject, 180 rows 
 
 
 9.	Write the aggerate data to file
 
-        Export FinalData into FinalData.txt file.
+        write FinalData into FinalData.txt file.
 
