@@ -1,3 +1,6 @@
+library(dplyr)
+
+
 ## read activity labels
 df_activity_labels <- read.delim("UCI HAR Dataset/activity_labels.txt", sep=" ", header = FALSE)
 
@@ -78,7 +81,7 @@ df_full_combined <- bind_rows(df_train_combined,df_test_combined)
 
 ## select only standart deviation and mean columns.
 
-df_full_filtered <- df_full_filtered <- select(df_full_combined, subject_id, activity_id,contains("mean"),contains("std"))
+df_full_filtered <- select(df_full_combined, subject_id, activity_id,contains("mean"),contains("std"))
 
 ## replace activity_id with names of activities
 
